@@ -23,7 +23,7 @@ body{
 .section-title{
 
     color: var#181818;
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     font-weight: 700;
 
@@ -113,6 +113,11 @@ main section{
     background: #FFF8F3;
     margin: 130px;
 }
+.section-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -182,8 +187,11 @@ footer{
     width: 50%;
    
 }
-.section-title{
+.section-titlet{
+    color: #181818;
     text-align: left;
+    font-size: 35px;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 .section-description{
